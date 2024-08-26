@@ -1,0 +1,589 @@
+2024-08-21T12:05:48Z I! Starting Telegraf 1.31.0 brought to you by InfluxData the makers of InfluxDB
+2024-08-21T12:05:48Z I! Available plugins: 234 inputs, 9 aggregators, 32 processors, 26 parsers, 60 outputs, 6 secret-stores
+2024-08-21T12:05:48Z I! Loaded inputs: mqtt_consumer socket_listener
+2024-08-21T12:05:48Z I! Loaded aggregators: 
+2024-08-21T12:05:48Z I! Loaded processors: 
+2024-08-21T12:05:48Z I! Loaded secretstores: 
+2024-08-21T12:05:48Z I! Loaded outputs: file influxdb mqtt
+2024-08-21T12:05:48Z I! Tags enabled: host=joakim-MacBookPro
+2024-08-21T12:05:48Z I! [agent] Config: Interval:1ms, Quiet:false, Hostname:"joakim-MacBookPro", Flush Interval:1ms
+2024-08-21T12:05:49Z I! [inputs.mqtt_consumer] Connected [tcp://test.mosquitto.org:1883]
+2024-08-21T12:05:49Z I! [inputs.socket_listener] Listening on udp://[::]:1654
+2024-08-21T12:05:57Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:06:05Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:06:17Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:17Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:17Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:17Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:17Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:23Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:06:23Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:06:25Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:06:25Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:06:25Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:06:27Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:06:34Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:06:34Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:56Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:06:58Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:07:20Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:07:39Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:07:49Z E! [outputs.influxdb] When writing to [udp://127.0.0.1:1653]: write udp 127.0.0.1:39965->127.0.0.1:1653: write: connection refused
+2024-08-21T12:07:49Z E! [agent] Error writing to outputs.influxdb: could not write any address
+2024-08-21T12:07:50Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:07:51Z E! [outputs.influxdb] When writing to [udp://127.0.0.1:1653]: write udp 127.0.0.1:54459->127.0.0.1:1653: write: connection refused
+2024-08-21T12:07:51Z E! [agent] Error writing to outputs.influxdb: could not write any address
+2024-08-21T12:07:53Z E! [outputs.influxdb] When writing to [udp://127.0.0.1:1653]: write udp 127.0.0.1:42598->127.0.0.1:1653: write: connection refused
+2024-08-21T12:07:53Z E! [agent] Error writing to outputs.influxdb: could not write any address
+2024-08-21T12:07:55Z E! [outputs.influxdb] When writing to [udp://127.0.0.1:1653]: write udp 127.0.0.1:48860->127.0.0.1:1653: write: connection refused
+2024-08-21T12:07:55Z E! [agent] Error writing to outputs.influxdb: could not write any address
+2024-08-21T12:07:55Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:07:57Z E! [outputs.influxdb] When writing to [udp://127.0.0.1:1653]: write udp 127.0.0.1:34051->127.0.0.1:1653: write: connection refused
+2024-08-21T12:07:57Z E! [agent] Error writing to outputs.influxdb: could not write any address
+2024-08-21T12:07:59Z E! [outputs.influxdb] When writing to [udp://127.0.0.1:1653]: write udp 127.0.0.1:46849->127.0.0.1:1653: write: connection refused
+2024-08-21T12:07:59Z E! [agent] Error writing to outputs.influxdb: could not write any address
+2024-08-21T12:08:00Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:08:02Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:08:13Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:08:16Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:08:20Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:08:33Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:08:43Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:08:47Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:08:57Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:09:11Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:09:36Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:09:41Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:09:42Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:09:48Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:09:50Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:09:58Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:09:59Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:10:13Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:10:18Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:10:21Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:11:10Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:11:12Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:11:47Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:11:59Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:11:59Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:12:01Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:12:14Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:12:40Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:13:11Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:13:25Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:14:09Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:14:09Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:14:27Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:14:32Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:14:37Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:14:49Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:15:00Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:15:02Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:15:13Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:15:30Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:15:42Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:15:53Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:16:00Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:16:08Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:16:10Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:16:10Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:16:11Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:16:24Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:16:38Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:16:42Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:16:44Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:16:56Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:17:36Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:17:36Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:17:38Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:17:38Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:17:54Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:17:55Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:17:57Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:18:05Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:18:20Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:18:35Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:18:36Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:18:57Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:19:00Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:19:01Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:19:02Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:19:14Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:19:28Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:19:29Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:19:39Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:19:53Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:19:53Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:19:53Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:20:04Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:20:27Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:20:38Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:20:43Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:21:05Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:21:09Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:21:10Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:21:19Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:21:24Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:21:55Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:21:55Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:22:17Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:22:30Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:22:37Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:23:16Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:23:24Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:23:56Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:23:56Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:24:10Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:24:32Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:24:32Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:24:38Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:24:43Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:25:24Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:25:25Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:25:52Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:25:57Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:26:03Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:26:16Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:26:24Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:26:28Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:26:29Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:26:44Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:26:44Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:26:44Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:27:24Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:27:34Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:27:46Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:27:48Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:28:01Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:28:02Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:28:02Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:28:14Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:28:36Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:28:48Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:28:53Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:28:53Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:28:57Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:28:59Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:29:07Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:29:18Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:29:43Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:29:43Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:29:56Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:30:17Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:30:26Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:30:26Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:30:37Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:31:16Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:31:34Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:31:49Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:31:53Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:31:55Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:31:56Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:31:56Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:32:06Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:32:12Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:32:51Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:33:02Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:33:19Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:33:30Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:33:45Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:33:47Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:33:51Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:33:57Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:34:14Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:35:40Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:35:45Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:35:55Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:36:06Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:36:06Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:36:13Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:36:50Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:36:52Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:36:54Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:37:09Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:37:15Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:37:19Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:37:20Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:37:32Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:37:32Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:37:53Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:37:55Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:37:59Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:37:59Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:38:15Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:38:16Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:38:27Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:38:27Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:38:27Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:38:27Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:39:05Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:39:35Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:39:35Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:39:35Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:39:43Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:39:43Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:39:46Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:39:48Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:40:11Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:40:28Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:40:35Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:40:57Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:41:17Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:41:25Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:41:28Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:41:39Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:41:46Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:41:48Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:42:01Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:42:01Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:42:01Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:42:30Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:42:30Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:42:30Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:42:54Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:43:46Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:43:47Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:43:55Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:43:59Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:43:59Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:43:59Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:44:02Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:44:11Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:44:13Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:44:35Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:45:06Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:45:08Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:45:30Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:45:40Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:45:40Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:45:41Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:46:02Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:46:21Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:46:31Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:46:54Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:47:23Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:47:28Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:47:30Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:47:30Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:47:32Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:47:52Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:47:59Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:48:10Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:48:17Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:48:29Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:48:58Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:48:59Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-21T12:48:59Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:49:23Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:49:37Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-21T12:49:57Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:50:08Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:50:08Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:50:21Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-21T12:50:50Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:51:10Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:51:10Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-21T12:51:10Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:31:07Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:31:07Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:31:11Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:11Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:31:30Z E! [inputs.mqtt_consumer] Error in plugin: connection lost: pingresp not received, disconnecting
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z I! [inputs.mqtt_consumer] Connected [tcp://test.mosquitto.org:1883]
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:30Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:31:39Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:31:53Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:31:53Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:31:53Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:32:11Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:32:11Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:32:11Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:32:43Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:32:44Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:32:59Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:33:32Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:33:48Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:34:13Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:34:13Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:34:33Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:34:33Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:34:40Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:34:43Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:34:44Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:34:47Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:34:48Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:34:50Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:34:55Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:34:58Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:35:19Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:35:24Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:36:10Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:36:18Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:36:26Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:36:42Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:36:42Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:36:42Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:38:05Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:41:03Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:41:27Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:41:27Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:42:20Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:42:20Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:42:20Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:42:52Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:42:52Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:45:11Z I! Reloading Telegraf config
+2024-08-26T08:45:11Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2024-08-26T08:45:11Z I! [agent] Stopping running outputs
+2024-08-26T08:45:11Z I! Loading config: telegraf.conf
+2024-08-26T08:45:11Z I! Starting Telegraf 1.31.0 brought to you by InfluxData the makers of InfluxDB
+2024-08-26T08:45:11Z I! Available plugins: 234 inputs, 9 aggregators, 32 processors, 26 parsers, 60 outputs, 6 secret-stores
+2024-08-26T08:45:11Z I! Loaded inputs: mqtt_consumer socket_listener
+2024-08-26T08:45:11Z I! Loaded aggregators: 
+2024-08-26T08:45:11Z I! Loaded processors: 
+2024-08-26T08:45:11Z I! Loaded secretstores: 
+2024-08-26T08:45:11Z I! Loaded outputs: file influxdb mqtt
+2024-08-26T08:45:11Z I! Tags enabled: host=joakim-MacBookPro
+2024-08-26T08:45:11Z I! [agent] Config: Interval:1ms, Quiet:false, Hostname:"joakim-MacBookPro", Flush Interval:1ms
+2024-08-26T08:45:12Z I! [inputs.mqtt_consumer] Connected [tcp://test.mosquitto.org:1883]
+2024-08-26T08:45:12Z I! [inputs.socket_listener] Listening on udp://[::]:1654
+2024-08-26T08:45:20Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:46:05Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval

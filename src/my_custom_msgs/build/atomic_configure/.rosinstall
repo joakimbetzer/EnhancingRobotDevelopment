@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/joakim/catkin_ws/src/my_custom_msgs/build/devel/setup.sh

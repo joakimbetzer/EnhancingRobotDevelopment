@@ -1,0 +1,125 @@
+{
+  "global": [],
+  "inputs": [{
+    "annotations": [{
+      "args": {
+        "id": {
+          "type": "String",
+          "value": "mqtt_consumer"
+        },
+        "tags": {
+          "type": "String",
+          "value": "host=joakim-MacBookPro"
+        },
+        "field": {
+          "type": "String",
+          "value": "actualSpeed"
+        }
+      },
+      "name": "TelegrafIn"
+    }],
+    "name": "actualSpeed",
+    "type": "Events[Float]"
+  }, {
+    "annotations": [{
+      "args": {
+        "id": {
+          "type": "String",
+          "value": "mqtt_consumer"
+        },
+        "tags": {
+          "type": "String",
+          "value": "host=joakim-MacBookPro"
+        },
+        "field": {
+          "type": "String",
+          "value": "lidar_0"
+        }
+      },
+      "name": "TelegrafIn"
+    }],
+    "name": "lidarFront",
+    "type": "Events[Float]"
+  }, {
+    "annotations": [{
+      "args": {
+        "id": {
+          "type": "String",
+          "value": "mqtt_consumer"
+        },
+        "tags": {
+          "type": "String",
+          "value": "host=joakim-MacBookPro"
+        },
+        "field": {
+          "type": "String",
+          "value": "lidar_1"
+        }
+      },
+      "name": "TelegrafIn"
+    }],
+    "name": "lidarBack",
+    "type": "Events[Float]"
+  }, {
+    "annotations": [{
+      "args": {
+        "id": {
+          "type": "String",
+          "value": "mqtt_consumer"
+        },
+        "tags": {
+          "type": "String",
+          "value": "host=joakim-MacBookPro"
+        },
+        "field": {
+          "type": "String",
+          "value": "expectedSpeed"
+        }
+      },
+      "name": "TelegrafIn"
+    }],
+    "name": "expectedSpeed",
+    "type": "Events[Float]"
+  }, {
+    "annotations": [{
+      "args": {
+        "id": {
+          "type": "String",
+          "value": "mqtt_consumer"
+        },
+        "tags": {
+          "type": "String",
+          "value": "host=joakim-MacBookPro"
+        },
+        "field": {
+          "type": "String",
+          "value": "brakingDist"
+        }
+      },
+      "name": "TelegrafIn"
+    }],
+    "name": "brakingDist",
+    "type": "Events[Float]"
+  }],
+  "outputs": [{
+    "annotations": [{
+      "args": {
+        "name": {
+          "type": "String",
+          "value": "message"
+        }
+      },
+      "name": "TelegrafOut"
+    }, {
+      "args": {
+        "value": {
+          "type": "String",
+          "value": "prioritize"
+        }
+      },
+      "name": "$name"
+    }],
+    "name": "prioritize$1030",
+    "type": "Events[Float]"
+  }]
+}
