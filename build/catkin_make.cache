@@ -1,0 +1,2 @@
+my_custom_msgs:turtlebot3_hector_slam
+-DCATKIN_DEVEL_PREFIX=/home/joakim/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/joakim/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,13 @@
+[workspace]
+
+[package]
+name = "tessla_monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tessla_stdlib = { path = "./lib_tessla" }
+
+[lib]
+name = "monitor"
+path = "src/monitor.rs"
