@@ -587,3 +587,24 @@
 2024-08-26T08:45:12Z I! [inputs.socket_listener] Listening on udp://[::]:1654
 2024-08-26T08:45:20Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
 2024-08-26T08:46:05Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:46:52Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:49:37Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:50:01Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:51:02Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:51:02Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:51:10Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:51:12Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:52:02Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:53:57Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:54:20Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:54:20Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:54:20Z W! [inputs.socket_listener] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:54:43Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T08:55:53Z W! [inputs.mqtt_consumer] Collection took longer than expected; not complete after interval of 1ms
+2024-08-26T08:56:16Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:57:47Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T08:58:14Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T08:59:48Z W! [agent] ["outputs.file"] did not complete within its flush interval
+2024-08-26T09:00:59Z W! [agent] ["outputs.mqtt"] did not complete within its flush interval
+2024-08-26T09:02:52Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
+2024-08-26T09:05:48Z W! [agent] ["outputs.influxdb"] did not complete within its flush interval
